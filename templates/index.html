@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<!-- this is meta -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <!-- title is what show up on the tab -->
+    <title>CHAT-GPT</title>
+</head>
+<!-- body is stuff on the page -->
+<body style = "background-color: {{color}}">
+    <h1>My Bot</h1>
+    <form method="POST">
+        <label>Your question:</label>
+        <input name="req_question" type="text" value={{question}}><br><br>
+        <input type="submit" value="Submit!">
+        <br><br>
+    </form>
+    <p>{{bot_answer}}</p>
+</body>
+</html>
